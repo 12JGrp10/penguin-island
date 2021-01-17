@@ -5,21 +5,15 @@
 </ion-header>
 
 <ion-content padding>
-  <h1>MyHealthLine™</h1>
-  <h4>Daily Calorie Intake Calculator</h4>
-  <img src="">logo
-  <h6>Made by Cruz, Go, Osis</h6>
+  <h1>+ MyHealthLine™+</h1>
+  <img src=''>
+
+  <h5>Daily Calorie Intake Calculator</h5>
   <p>
     Caloric intake is defined as the amount of energy consumed via food and beverage. Calories are units that measure the energy in food; as well as, the energy produced, stored, and utilized by living organisms.
     <br/><br/>
-    Source: <a href="https://link.springer.com/referenceworkentry/10.1007%2F978-1-4419-1005-9_1107#:~:text=Caloric%20intake%20is%20defined%20as,and%20utilized%20by%20living%20organisms.">https://link.springer.com/referenceworkentry.</a>
+    <b> Source: <a href="https://link.springer.com/referenceworkentry/10.1007%2F978-1-4419-1005-9_1107#:~:text=Caloric%20intake%20is%20defined%20as,and%20utilized%20by%20living%20organisms.">https://link.springer.com/referenceworkentry.</a> </b>
   </p>
-<style>
-  body
-  {
-    background-color:url('')
-  }
-</style>
 <ion-item>
     <ion-label color="dark"> Sex: </ion-label>
     <ion-select interface="popover" [(ngModel)]="sex">
@@ -29,12 +23,12 @@
 </ion-item>
 
 <ion-item>
-   <ion-label color="dark">Height in cm: </ion-label>
+   <ion-label color="dark">Height (cm): </ion-label>
     <ion-input type="number"[(ngModel)]="height"></ion-input>
 </ion-item>
 
 <ion-item>
-   <ion-label color="dark">Weight in kg: </ion-label>
+   <ion-label color="dark">Weight (kg): </ion-label>
     <ion-input type="number"[(ngModel)]="weight"></ion-input>
 </ion-item>
 
@@ -58,5 +52,7 @@
 <button ion-button color="secondary" (click)="calculateCalories()">calculate</button>
 
 <ion-item *ngIf= "Calories">
-  <h2> Daily Calorie Intake: {{total}} <code> {{CalorieMessage}}</code></h2>
+  <h2><b> Daily Calorie Intake: {{total}} kcal / day <code> {{CalorieMessage}} </code> </b></h2>
 <ion-item>
+  <br/>
+   <h6> Thank you for choosing <i> MyHealthLine™ </i>! </h6>

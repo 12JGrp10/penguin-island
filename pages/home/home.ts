@@ -33,8 +33,6 @@ export class HomePage {
     else{
       this.Calories = 0.01;
     }
-
-    
     this.total = parseFloat((this.Calories * this.activity).toFixed(2));
 
     }
