@@ -6,6 +6,7 @@ ion-content{
   }
   .img-container {
         text-align: center;
+        display: block;
       }
 h6{
   text-align: center;
