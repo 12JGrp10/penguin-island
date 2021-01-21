@@ -8,7 +8,10 @@
 
 <ion-content>
   <h1>DAILY CALORIE INTAKE CALCULATOR</h1>
-  <h5> Please input the following details below to know your daily calorie intake per day. </h5>
+  <h5> The system below is a highly accurate and simple calorie calculator that allows users to determine their daily calorie intake. Moreover, it also allows users to keep watch of their body in order to have a healthier lifestyle. </h5>
+  <h5>Please input the following details below in order to determine your daily calorie intake per day. 
+  <br/><br/>
+  <b><i>Note: The user must be at least 18 years old when using this app. </i></b></h5>
   <ion-item>
     <ion-label color="dark"> Sex: </ion-label>
     <ion-select interface="popover" [(ngModel)]="sex">
@@ -43,12 +46,13 @@
       <ion-option value='2.3'>Professional Athlete</ion-option>
     </ion-select>
 </ion-item>
-
+<br/>
 <button ion-button color="danger" (click)="calculateCalories()">calculate</button>
-
+<br/><br/>
 <ion-item *ngIf= "Calories">
   <h2><b> Daily Calorie Intake: {{total}} kcal / day <code> {{CalorieMessage}} </code> 
   <br/>{{Note}}<br/> </b></h2> 
 <ion-item>
   <br/>
    <h6> Thank you for choosing <i> MyHealthLine™ </i>! </h6>
+

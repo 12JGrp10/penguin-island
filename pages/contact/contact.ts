@@ -33,17 +33,7 @@ export class ContactPage {
     else{
       this.Calories = 0.01;
     }
-
-
-    if (this.age <= 17){
-      console.log(this.x);
-      this.Note = "You must be at least 18 years and above to try this daily intake calculator."; 
-      this.total = parseFloat((this.Calories * this.activity).toFixed(2));
-    }
-    else {
-      this.Note = "";
-      console.log(this.y);
       this.total = parseFloat((this.Calories * this.activity).toFixed(2));
     }
     }
-    }
+    
