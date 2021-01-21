@@ -22,6 +22,7 @@ h5{
   border-style: ridge;
   border-color:  rgb(138, 0, 0);
   line-height: 250%;
+  border-width: 5px; 
 }
 p{
   font-family: gill sans;
@@ -95,8 +96,21 @@ h1{
   background: rgb(138, 0, 0);
   margin-right: 30%;
   margin-left: 30%;
-  border-color: white;
+  border-color:  rgb(138, 0, 0);
   border-style: ridge;
   text-align: center;
   font-size: xxx-large;
+  border-width: 5px; 
 }
+hr{  
+width: 80%;  
+height: 1px;  
+background-color: white;  
+margin-bottom: 7px;  
+margin-right: auto;  
+margin-left: auto;  
+margin-top: 9px;  
+border-width: 2px;  
+border-color: white;  
+}
+ 

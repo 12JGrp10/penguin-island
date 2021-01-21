@@ -16,6 +16,12 @@ h1{
   font-style: italic;
   background: rgb(138, 0, 0);
   font-size: xx-large;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-style: ridge;
+  border-width: 5 pix;
+  border-color:  rgb(138, 0, 0);
+
 }
 h5{
   text-align: center;
@@ -28,24 +34,26 @@ p{
   text-align: center;
   color: white;
   background: rgba(199, 10, 10, 0.801);
-}
-h1{
-  text-align: center;
-  background: rgb(138, 0, 0);
-  color: white;
+  font-size: large;
+  border-color: white;
+  border-style: ridge;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 h4{
   text-align: center;
   background: rgb(138, 0, 0);
   color: white;
 }
-ion-chip{
+ ion-chip{
   background: rgb(138, 0, 0);
-  text-align: center;
+  margin-left: 43%;
+  margin-right: 43%;
 }
 ion-label{
   color: white;
   text-align: center;
 }
-
-
+ion-title {
+  text-align: center;
+}

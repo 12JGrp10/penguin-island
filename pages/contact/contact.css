@@ -5,6 +5,7 @@ h2{
   color: black;
   text-align: center;
   font-style: bold;
+  font-size: x-large;
 }
   .center {
   display: block;
@@ -14,22 +15,25 @@ h2{
 }
 h6{
   text-align: center;
+  font-size: xx-large;
+  color: rgb(0, 0, 0);
 }
 h1{
   text-align: center;
   color: white;
-  font-style: italic;
+  font-style: bold;
   background: rgb(138, 0, 0);
 }
 h5{
   text-align: center;
   background: rgba(199, 10, 10, 0.801);
   color: white;
-  font-size: medium;
+  font-size: large;
   font-family: gill sans;
   margin-left: 10%;
   margin-right: 10%;
   border-style: ridge;
+  border-width: 3px; 
 }
 button
 {
@@ -46,4 +50,18 @@ ion-item{
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
+}
+ion-title{
+  text-align: center;
+}
+hr{  
+width: 120%;  
+height: 1px;  
+background-color: white;  
+margin-bottom: 7px;  
+margin-right: 70%;  
+margin-left: auto;  
+margin-top: 9px;  
+border-width: 0.05px;  
+border-color: white;  
 }
