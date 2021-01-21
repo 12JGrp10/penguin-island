@@ -13,19 +13,9 @@ h2{
 h6{
   text-align: center;
 }
-h1{
-  text-align: center;
-  color: white;
-  font-style: italic;
-  background: rgb(138, 0, 0);
-  font-size: xxx-large;
-  border-style: double;
-  border-color: white;
-  line-height: 250%;
-}
 h5{
   text-align: center;
-  background: rgba(199, 10, 10, 0.801);
+  background: rgb(138, 0, 0);
   color: white;
   font-style: italic;
   font-size: xx-large;
@@ -41,10 +31,23 @@ p{
   border-style: solid;
   border-color:  rgb(138, 0, 0);
   font-size: large;
+  position: relative;
 }
 h2{
+  font-style: italic;
+  font-size: xx-large;
+  border-style: double;
+  border-color: white;
+  line-height: 250%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-size: 10%;
+  background: rgba(199, 10, 10, 0.801);
   text-align: center;
-  color: black;
+  color: white;
+  position: relative;
+  height: 20%;
+  width: 60%;
 }
 a{
  font-family: gill sans;
@@ -67,7 +70,7 @@ height: 30px;
 ion-item {
   background: orange;
 }
-h4{
+h3{
    margin-left: 30%;
    margin-right: 30%;
    background-size: 30%;
@@ -76,8 +79,35 @@ h4{
    text-align: justify;
    border-color: white;
    border-style: ridge;
-   font-size: medium;
+   font-size: x-large;
+   
 }
 ion-title{
   text-align: center;
+}
+h6{
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+}
+h1{
+  color: white;
+  background: rgb(138, 0, 0);
+  margin-right: 30%;
+  margin-left: 30%;
+  border-color: white;
+  border-style: ridge;
+  text-align: center;
+  font-size: xxx-large;
+}
+hr  {  
+width: 100%;  
+height: 2px;  
+background-color: white;  
+margin-bottom: 7px;  
+margin-right: auto;  
+margin-left: auto;  
+margin-top: 9px;  
+border-width: 4px;  
+border-color: white;  
 }
