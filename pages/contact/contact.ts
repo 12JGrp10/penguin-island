@@ -14,17 +14,17 @@ export class ContactPage {
   Calories: number;
   total: number;
   activity: number;
-  CaloriesMessage: string;
-  
+  CalorieMessage: string;
+  Note: string;
+  x: string = "testing";
+  y: string = "test also";
 
   constructor(public navCtrl: NavController) {}
   
-
+  
   calculateCalories() {
-
-
+    
     if (this.sex === "m") { 
-    console.log("hello world");
       this.Calories = (10 * this.weight + 6.25 * this.height - 5 * this.age + 5);
     }
     else if (this.sex === "f") { 
@@ -33,8 +33,17 @@ export class ContactPage {
     else{
       this.Calories = 0.01;
     }
-    this.total = parseFloat((this.Calories * this.activity).toFixed(2));
 
+
+    if (this.age <= 17){
+      console.log(this.x);
+      this.Note = "You must be at least 18 years and above to try this daily intake calculator."; 
+      this.total = parseFloat((this.Calories * this.activity).toFixed(2));
     }
-  
+    else {
+      this.Note = "";
+      console.log(this.y);
+      this.total = parseFloat((this.Calories * this.activity).toFixed(2));
+    }
+    }
     }

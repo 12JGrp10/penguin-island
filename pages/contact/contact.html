@@ -1,12 +1,14 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Calculator
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
+  <h1>DAILY CALORIE INTAKE CALCULATOR</h1>
+  <h5> Please input the following details below to know your daily calorie intake per day. </h5>
   <ion-item>
     <ion-label color="dark"> Sex: </ion-label>
     <ion-select interface="popover" [(ngModel)]="sex">
@@ -45,8 +47,8 @@
 <button ion-button color="danger" (click)="calculateCalories()">calculate</button>
 
 <ion-item *ngIf= "Calories">
-  <h2><b> Daily Calorie Intake: {{total}} kcal / day <code> {{CalorieMessage}} </code> </b></h2>
+  <h2><b> Daily Calorie Intake: {{total}} kcal / day <code> {{CalorieMessage}} </code> 
+  <br/>{{Note}}<br/> </b></h2> 
 <ion-item>
   <br/>
    <h6> Thank you for choosing <i> MyHealthLine™ </i>! </h6>
-

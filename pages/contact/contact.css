@@ -1,15 +1,16 @@
 ion-content{
   background-image: url('https://cdn.jsdelivr.net/gh/12JGrp10/penguin-island@master/orange.jpg');
 }
-  h2{
-  color:#ff9068;
-  }
+h2{
+  color: black;
+  text-align: center;
+  font-style: bold;
+}
   .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  
 }
 h6{
   text-align: center;
@@ -24,17 +25,13 @@ h5{
   text-align: center;
   background: rgba(199, 10, 10, 0.801);
   color: white;
-  font-style: bold;
+  font-size: medium;
 }
 p{
   font-family: gill sans;
   text-align: justify;
   color: white;
   background: rgba(199, 10, 10, 0.801);
-}
-h2{
-  text-align: center;
-  color: black;
 }
 a{
  font-family: gill sans;
