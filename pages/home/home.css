@@ -92,10 +92,6 @@ h6{
   margin-right: 5%;
   color: white;
 }
-h1{
-  
-  
-}
 hr{  
 width: 90%;  
 height: 1px;  
@@ -110,4 +106,15 @@ border-color: white;
 img{
   width: 150%;
   height: auto;
+}
+h1{
+   margin-left: 20%;
+   margin-right: 20%;
+   background-size: 30%;
+   background:: rgb(78, 12, 12);
+   color:white;
+   text-align: center;
+   border-color: white;
+   border-style: ridge;
+   font-size: xx-large;
 }
