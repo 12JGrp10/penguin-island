@@ -47,7 +47,7 @@ h4{
 }
  ion-chip{
   background: rgb(138, 0, 0);
-  margin-left: 41%;
+  margin-left: 28%;
   margin-right: 50%;
 }
 ion-label{
@@ -56,4 +56,15 @@ ion-label{
 }
 ion-title {
   text-align: center;
+}
+hr{  
+width: 90%;  
+height: 1px;  
+background-color: white;  
+margin-bottom: 7px;  
+margin-right: auto;  
+margin-left: auto;  
+margin-top: 9px;  
+border-width: 2px;  
+border-color: white;  
 }
